@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+}
+
+.app {
+  width: 400px;
+  margin: 40px auto;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input-box input {
+  padding: 8px;
+  width: 70%;
+  margin-right: 5px;
+}
+
+.input-box button {
+  padding: 8px 12px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.task-item span {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions button {
+  margin-left: 5px;
+}
+
+.empty {
+  color: gray;
+}
